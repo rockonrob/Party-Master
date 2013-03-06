@@ -12,17 +12,17 @@ simulator_x = 25
 simulator_y = 25
 simulator_collapsed = false
 
+[lp339374611]
+name = LED Panel
+id = 16x16
+simulator_x = 365
+simulator_y = 156
+simulator_collapsed = false
+panel_width = 16
+panel_height = 16
+
 [elements]
 element0 = bl1332125986
 element1 = bl1370792415
 element2 = lp339374611
-
-[lp339374611]
-name = LED Panel
-id = 16x16
-simulator_x = 276
-simulator_y = 54
-simulator_collapsed = false
-panel_width = 16
-panel_height = 16
 

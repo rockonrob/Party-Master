@@ -9,6 +9,7 @@ import com.partyrock.anim.blink.BlinkFadeAnimation;
 import com.partyrock.anim.ledpanel.LEDFaviconAnimation;
 import com.partyrock.anim.ledpanel.LEDWipeAnimation;
 import com.partyrock.anim.ledpanel.RandomizeLEDAnimation;
+import com.partyrock.anim.ledpanel.testImages;
 import com.partyrock.element.ElementController;
 import com.partyrock.element.ElementType;
 
@@ -33,6 +34,7 @@ public class LightAnimationManager {
         animationList.add(RandomizeLEDAnimation.class);
         animationList.add(LEDFaviconAnimation.class);
         animationList.add(LEDWipeAnimation.class);
+        animationList.add(testImages.class);
     }
 
     /**
