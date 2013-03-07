@@ -6,10 +6,14 @@ import java.util.HashSet;
 
 import com.partyrock.LightMaster;
 import com.partyrock.anim.blink.BlinkFadeAnimation;
+import com.partyrock.anim.ledpanel.DoubleHairPin;
+import com.partyrock.anim.ledpanel.HairPin;
 import com.partyrock.anim.ledpanel.LEDFaviconAnimation;
+import com.partyrock.anim.ledpanel.LEDWave;
+import com.partyrock.anim.ledpanel.LEDWaveBack;
 import com.partyrock.anim.ledpanel.LEDWipeAnimation;
 import com.partyrock.anim.ledpanel.RandomizeLEDAnimation;
-import com.partyrock.anim.ledpanel.testImages;
+import com.partyrock.anim.ledpanel.swirl;
 import com.partyrock.element.ElementController;
 import com.partyrock.element.ElementType;
 
@@ -34,7 +38,11 @@ public class LightAnimationManager {
         animationList.add(RandomizeLEDAnimation.class);
         animationList.add(LEDFaviconAnimation.class);
         animationList.add(LEDWipeAnimation.class);
-        animationList.add(testImages.class);
+        animationList.add(swirl.class);
+        animationList.add(LEDWave.class);
+        animationList.add(LEDWaveBack.class);
+        animationList.add(HairPin.class);
+        animationList.add(DoubleHairPin.class);
     }
 
     /**

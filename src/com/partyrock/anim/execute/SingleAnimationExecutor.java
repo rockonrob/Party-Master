@@ -46,7 +46,9 @@ public class SingleAnimationExecutor extends Thread {
                 Thread.yield();
                 PartyToolkit.sleep(10);
             }
-
+            
+            animation.increment(.99999);
+            
             window.getMaster().getShowManager().pause();
         }
     }

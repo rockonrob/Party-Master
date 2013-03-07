@@ -109,7 +109,7 @@ public class LightShowManager {
     private void startPlay() {
         isPlaying = true;
         isPaused = false;
-        playMusic();
+        //playMusic();
     }
 
     /**
