@@ -13,7 +13,8 @@ import com.partyrock.element.ElementType;
 import com.partyrock.element.led.LEDPanelController;
 
 /**
- * Swirl Animation
+ * Forwards "wave" of whatever color you want
+ * Trigger
  * 
  * @author William Koehler
  * 
@@ -49,7 +50,7 @@ public class LEDWave extends ElementAnimation {
      * @param percentage The percentage of the way through the animation we are. This is between 0 and 1
      */
     public void increment(double percentage) {
-    	int newfadedColumns = 0;
+    	
         for (ElementController controller : getElements()) {
             // We only put LEDS in our getSupportedTypes(), so that's all we're going to get.
             LEDPanelController panel = (LEDPanelController) controller;
@@ -75,7 +76,6 @@ public class LEDWave extends ElementAnimation {
             	}
             }
         }
-        fadedcol = newfadedColumns;
     	/* HAIRPIN
     	int newfadedColumns = 0;
         for (ElementController controller : getElements()) {

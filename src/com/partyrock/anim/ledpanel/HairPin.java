@@ -13,7 +13,8 @@ import com.partyrock.element.ElementType;
 import com.partyrock.element.led.LEDPanelController;
 
 /**
- * Swirl Animation
+ * Creates a hairpin like animation of one color
+ * Trigger
  * 
  * @author William Koehler
  * 

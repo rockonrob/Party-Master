@@ -13,7 +13,9 @@ import com.partyrock.element.ElementType;
 import com.partyrock.element.led.LEDPanelController;
 
 /**
- * Swirl Animation
+ * Swirl Animation -- color red and color blue can be changed to whatever color wanted
+ * 	easiest to just change the sysColor
+ * NO Trigger
  * 
  * @author William Koehler
  * 
@@ -128,6 +130,7 @@ public class swirl extends ElementAnimation {
     }
     
     public void trigger() {
+    	/*
         // For each panel, set each LED to a random color
         for (ElementController element : getElements()) {
             LEDPanelController panel = (LEDPanelController) element;
@@ -137,6 +140,7 @@ public class swirl extends ElementAnimation {
                 }
             }
         }
+        */
     }
 
     /**

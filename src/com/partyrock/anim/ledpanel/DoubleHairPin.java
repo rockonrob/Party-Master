@@ -55,8 +55,6 @@ public class DoubleHairPin extends ElementAnimation {
             LEDPanelController panel = (LEDPanelController) controller;
             
             int colon = (int) (percentage * panel.getPanelWidth());
-            panel.setColor(7, 0, purple);
-        	panel.setColor(8, 0, purple);
             
             if (fadedcol < colon) {
             	for (int c = fadedcol + 1; c <= colon && c < panel.getPanelWidth(); c++) {

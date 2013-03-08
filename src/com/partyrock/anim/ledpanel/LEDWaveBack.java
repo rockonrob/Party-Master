@@ -13,7 +13,8 @@ import com.partyrock.element.ElementType;
 import com.partyrock.element.led.LEDPanelController;
 
 /**
- * Swirl Animation
+ * Backwards "wave" of whatever color you want
+ * NO Trigger
  * 
  * @author William Koehler
  * 
